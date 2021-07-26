@@ -8,35 +8,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/main.min.css">
   <title>Web Studio</title>
 </head>
 
 <body>
 <header class="header">
-  <!-- Навигация -->
-  <div class="container">
-    <a href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
-    <nav class="main-nav">
-      <ul class="site-nav">
-        <li class="item"><a href="./index.html" class="link">Студия</a></li>
-        <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
-        <li class="item"><a href="" class="link">Контакты</a></li>
+  <div class="container header__container">
+    <a class="logo" href="./index.html"><span class="logo__accent">Web</span>Studio</a>
+    <nav class="header__navigation">
+      <ul class="header__list">
+        <li class="header__item"><a class="link header__link header__link--nav"
+            href="./index.html">Студия</a></li>
+        <li class="header__item"><a class="link header__link header__link--nav header__link--current" href="./portfolio.html">Портфолио</a>
+        </li>
+        <li class="header__item"><a class="link header__link header__link--nav" href="">Контакты</a></li>
       </ul>
     </nav>
-    <!-- Контакты -->
-    <ul class="contacts">
-      <li>
-        <a href="mailto:info@devstudio.com" class="link">
-          <svg class="icon" width="16px" height="12px">
+    <ul class="header__contacts">
+      <li class="header__contact">
+        <a class="link header__link" href="mailto:info@devstudio.com">
+          <svg class="icon header__icon" width="16px" height="12px">
             <use href="./images/sprite.svg#icon-envelope"></use>
           </svg>
           info@devstudio.com
         </a>
       </li>
-      <li>
-        <a href="tel:+380961111111" class="link">
-          <svg class="icon" width="10px" height="16px">
+      <li class="header__contact">
+        <a class="link header__link" href="tel:+380961111111">
+          <svg class="icon header__icon" width="10px" height="16px">
             <use href="./images/sprite.svg#icon-smartphone"></use>
           </svg>
           +38 096 111 11 11
@@ -45,6 +45,7 @@
     </ul>
   </div>
 </header>
+
 
 <main>
 <section class="portfolio">

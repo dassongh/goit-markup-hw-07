@@ -1,0 +1,29 @@
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.features__card {
+  width: 270px;
+  margin: 15px;
+}
+
+.features__heading {
+  margin: 0 0 10px;
+}
+
+.features__thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
